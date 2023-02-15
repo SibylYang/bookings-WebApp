@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/SibylYang/bookings/pkg/config"
-	"github.com/SibylYang/bookings/pkg/handlers"
-	"github.com/SibylYang/bookings/pkg/render"
 	"fmt"
 	"github.com/alexedwards/scs/v2"
+	"github.com/tsawler/bookings-app/pkg/config"
+	"github.com/tsawler/bookings-app/pkg/handlers"
+	"github.com/tsawler/bookings-app/pkg/render"
 	"log"
 	"net/http"
 	"time"
