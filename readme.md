@@ -1,10 +1,7 @@
-# Bookings and Reservations
+# Bookings and Reservation
 
-The repository for [Building Modern Web Applications with Go](https://www.udemy.com/course/building-modern-web-applications-with-go/?referralCode=0415FB906223F10C6800).
+This is a hotel room booking and reservation web app built in Go. The web app allows users to broswer hotel rooms, search rooms using room type and dates, log in and make reservations. The app uses PostgreSQL as a database to manage user data, room availability and reservation data. 
 
-
-
-- Built in Go version 1.15
 - Uses the [chi router](github.com/go-chi/chi)
 - Uses [alex edwards scs session management](github.com/alexedwards/scs)
 - Uses [nosurf](github.com/justinas/nosurf)
